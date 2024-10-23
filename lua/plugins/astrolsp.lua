@@ -24,6 +24,7 @@ return {
           "ts",
           "cs",
           "js",
+          "gleam",
         },
         ignore_filetypes = { -- disable format on save for specified filetypes
           -- "python",
@@ -40,7 +41,7 @@ return {
     },
     -- enable servers that you already have installed without mason
     servers = {
-      -- "pyright"
+      "gleam"
     },
     -- customize language server configuration options passed to `lspconfig`
     ---@diagnostic disable: missing-fields
