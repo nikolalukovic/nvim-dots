@@ -9,6 +9,7 @@ return {
   { import = "astrocommunity.pack.angular" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.cs" },
-  { import = "astrocommunity.pack.cpp" }
+  { import = "astrocommunity.pack.cpp" },
+  { import = "astrocommunity.colorscheme.gruvbox-baby" }
   -- import/override with your plugins folder
 }
