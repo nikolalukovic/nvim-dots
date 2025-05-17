@@ -36,7 +36,12 @@ return {
       return opts
     end,
   },
-
+  {
+    "neo-tree.nvim",
+    opts = {
+      sort_case_insensitive = true,
+    }
+  },
   -- You can disable default plugins as follows:
   { "max397574/better-escape.nvim", enabled = false },
 

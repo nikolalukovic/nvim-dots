@@ -18,4 +18,4 @@ end
 require "lazy_setup"
 require "polish"
 
-vim.o.guifont = "Cascadia Code NF:h13"
+vim.o.guifont = "Cascadia Code NF:h11"
