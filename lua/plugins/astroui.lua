@@ -8,7 +8,7 @@ return {
   "AstroNvim/astroui",
   ---@type AstroUIOpts
   opts = {
-    colorscheme = "gruvbox",
+    colorscheme = "kanagawa",
     icons = {
       LSPLoading1 = "⠋",
       LSPLoading2 = "⠙",
