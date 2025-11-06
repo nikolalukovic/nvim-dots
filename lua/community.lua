@@ -5,15 +5,7 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
-  {
-    import = "astrocommunity.colorscheme.gruvbox-nvim",
-    opts = {
-      contrast = "hard",
-      italic = {
-        operators = true,
-      },
-    },
-  },
+  { import = "astrocommunity.colorscheme.gruvbox-nvim" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.cmake" },
