@@ -9,6 +9,9 @@ return {
   ---@type AstroUIOpts
   opts = {
     colorscheme = "kanagawa",
+    highlights = {
+      init = {},
+    },
     icons = {
       LSPLoading1 = "⠋",
       LSPLoading2 = "⠙",
